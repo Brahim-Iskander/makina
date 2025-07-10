@@ -4,7 +4,7 @@ import Machine from './models/machine.model.js'; // Adjust the path as necessary
 import cors from 'cors';
 import connectToMongo from './config/monogoConnection.js'; // Adjust the path as necessary
 import admin from './models/admin.model.js'; // Adjust the path as necessary
-const port = 3000;
+const port = 3000 || 4000 ;
 const app= express();
 
 app.use(express.json());
