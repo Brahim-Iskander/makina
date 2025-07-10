@@ -4,7 +4,9 @@ import Machine from './models/machine.model.js'; // Adjust the path as necessary
 import cors from 'cors';
 import connectToMongo from './config/monogoConnection.js'; // Adjust the path as necessary
 import admin from './models/admin.model.js'; // Adjust the path as necessary
-const port = 3000;
+import dotenv from 'dotenv';
+dotenv.config();
+const port = process.env.PORT || 5000;
 const app= express();
 
 app.use(express.json());
