@@ -1,0 +1,19 @@
+.card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    border: 2px solid #33c8ff;
+
+    
+}
+.title {
+    font-size: 1.5rem;
+    font-weight: 700 !important;
+    text-align: center;
+    color: #333;
+}
+.content {
+    overflow-wrap: break-word !important;
+    text-align: center;
+    color: #333;
+    max-width: '90%' !important;
+}

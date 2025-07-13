@@ -1,0 +1,26 @@
+.full{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100vw;
+    background-color: #33c9ff;
+z-index: 100;}
+.testt{
+    display : flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.divgauc{
+    display : flex;
+    justify-content:center;
+    align-items: center;
+}
+a{
+    margin :8px
+}
+.logo{
+
+    height: 45px;
+    width: 45px;
+    margin-right:10px
+}

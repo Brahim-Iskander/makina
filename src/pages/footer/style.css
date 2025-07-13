@@ -1,0 +1,33 @@
+.footer-logo{
+    height: 45px;
+    width: 45px;
+    margin-right: 10px;
+}
+.footer-content{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-text{
+    
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.footer{
+    position: relative;
+    
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+footer-text P {
+    margin-top: 0px !important;
+}
